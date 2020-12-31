@@ -1,0 +1,101 @@
+body{ 
+    padding: 0; 
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 236, 245);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header{
+    background: #35424b;
+    color: whitesmoke;
+    padding: 20px;
+    min-height: 50px;
+    border-bottom: tomato 3px solid;
+}
+
+header li{
+    display: inline;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header a:hover{
+    color:rgb(204, 9, 9)
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .hilight{
+    color:rgb(204, 9, 9);
+    font-weight: bold;
+}
+#showcase{
+    background:URL("../IMAGE/backpacker.jpg") no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    text-align: center;
+    color: rgb(252, 248, 248);
+    text-shadow: black;
+}
+#showcase h1{
+    margin-top: 80px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 25px;
+    color: #354253;
+    font-weight: bold;
+}
+#elements{
+    margin-top: 20px;
+}
+#elements .element{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#elements .element img{
+    width: 90px;
+}
+
+#about.h2{
+    text-align: center;  
+}
+#about.container p{
+    margin-top: 2%;
+  font-size: 15px;
+  margin: 2%;
+  font-weight: 400;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    background-color: violet ;
+}
+
